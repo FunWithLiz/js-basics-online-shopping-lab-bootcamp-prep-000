@@ -10,11 +10,23 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ [{itemName: "banana",
+ itemPrice: 1}, 
+ {itemName: "apple", 
+ itemPrice: 2},
+ {itemName: "eggs", 
+ itemPrice: 3},
+ {itemName: "flour", 
+ itemPrice: 5}];
+
+return `${item} + "has been added to your cart"`;
+  
 }
 
+
+
 function viewCart() {
-  // write your code here
+  `"In your cart, you have ${itemName} at ${itemPrice}."`;
 }
 
 function total() {
